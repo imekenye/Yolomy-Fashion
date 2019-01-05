@@ -140,3 +140,17 @@ input[type="checkbox"]:checked:focus + label:before,
 input[type="checkbox"]:not(:checked):focus + label:before {
   border: inherit;
 }
+
+// button
+
+.products-btn button {
+    background-color: $color-button-primary;
+    color: white;
+    border: none;
+    padding:1.8rem;
+    font-weight: 100;
+    letter-spacing: .2rem;
+    font-size: 1.2rem;
+    width: 20rem;
+    border-radius: .5rem;
+}
