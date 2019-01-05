@@ -227,6 +227,7 @@ input[type="checkbox"]:not(:checked):focus + label:before {
 }
 
 .about-main {
+  height: 40rem;
   padding-top: 15rem;
 }
 
@@ -253,5 +254,17 @@ section.about-us {
 .about-us__text p {
   font-size: 2rem;
   padding-bottom: 5rem;
+}
+
+.twitter__section {
+  background-color: #535154;
+  height: 7.2rem;
+  color: white;
+  padding-left: 8rem;
+}
+
+.twitter__section--text {
+  font-size: 2rem;
+  font-weight: 100;
 }
 /*# sourceMappingURL=main.css.map */
