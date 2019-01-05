@@ -224,6 +224,11 @@ input[type="checkbox"]:not(:checked):focus + label:before {
     }
 }
 
+#women,
+#men {
+    display: none;
+}
+
 // SECTION ABOUT US
 
 .about-main {

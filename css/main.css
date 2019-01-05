@@ -226,6 +226,11 @@ input[type="checkbox"]:not(:checked):focus + label:before {
   width: 90%;
 }
 
+#women,
+#men {
+  display: none;
+}
+
 .about-main {
   height: 40rem;
   padding-top: 15rem;
