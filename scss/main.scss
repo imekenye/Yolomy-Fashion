@@ -16,6 +16,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     padding: 0;
     margin:0;
+    height: 100vh;
     
 }
 
@@ -49,6 +50,7 @@ nav a {
 }
 
 // CATEGORY/CHECKBOX SECTION
+
 
 .category-input {
     background-color:$color-primary;
@@ -153,4 +155,71 @@ input[type="checkbox"]:not(:checked):focus + label:before {
     font-size: 1.2rem;
     width: 20rem;
     border-radius: .5rem;
+}
+
+// PRODUCTS SECTION
+
+.products__top {
+    height: 15rem;
+    color:$color-grey-charcoal;
+    padding: 0 9rem;
+
+    h6{
+        font-size: 2rem;
+    }
+
+    .horizontal{
+        background-color: $color-grey-iron;
+        height: 0.3rem;
+    }
+}
+
+.counter {
+    color: $color-secondary;
+    &__top{
+        font-size: 1.6rem;
+    }
+    &__bottom{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery__item {
+    height: 37.6rem;
+    flex:0 0 27%;
+    margin-right: 7%;
+    position: relative;
+
+    &--size,
+    &--product,
+    &--price {
+        font-size: 1.6rem;
+        color: $color-grey-charcoal;
+    }
+    &--product {
+        color: $color-secondary;
+    }
+
+    &-top {
+        width: 30rem;
+        position: absolute;
+        top: 3rem;
+    }
+
+    &-middle {
+        position: absolute;
+        top: 8rem;
+    }
+
+    &-bottom {
+        position: absolute;
+        bottom: 3rem;
+        width: 90%;
+    }
 }
