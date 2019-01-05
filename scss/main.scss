@@ -270,3 +270,53 @@ section.about-us{
         font-weight: 100;
     }
 }
+
+// FOOTER SECTION
+
+footer {
+    background-color: #414141;
+    color: white;
+    height: 34rem;
+}
+.footer-section {
+    padding: 0 10rem;
+    padding-top: 5rem;
+}
+
+.footer {
+
+    &-left h6{
+        font-size: 3rem;
+        font-weight: 100;
+    }
+    &-left p{
+        font-size: 1.7rem;
+        line-height: 1.9;
+        font-weight: 100;
+    }
+    &-middle p {
+        font-size: 2rem;
+        font-weight: 100;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    &-right__top a {
+        font-size: 1.6rem;
+        color: white;
+        text-decoration: none;
+        font-weight: 100;
+    }
+
+    &-right__bottom p {
+        font-size: 2.5rem;
+        font-weight: 100;
+    }
+
+    &-bottom {
+        margin: 5rem 0;
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+}
+
