@@ -223,3 +223,36 @@ input[type="checkbox"]:not(:checked):focus + label:before {
         width: 90%;
     }
 }
+
+// SECTION ABOUT US
+
+.about-main {
+    padding-top: 15rem;
+}
+
+section.about-us{
+    background-image: url('/assets/backgrounds/about.jpg');
+    background-repeat: no-repeat;
+
+}
+.about-us {
+    padding-top: 8rem;    
+    color: white;
+
+    &__border {
+        border: 2px solid $color-secondary;
+        margin: 0 auto;
+
+    }
+
+    &__heading h6 {
+        padding: 3rem;
+        font-size: 2rem;
+    }
+
+    &__text p {
+        font-size: 2rem;
+        padding-bottom: 5rem;
+    }
+}
+

@@ -225,4 +225,33 @@ input[type="checkbox"]:not(:checked):focus + label:before {
   bottom: 3rem;
   width: 90%;
 }
+
+.about-main {
+  padding-top: 15rem;
+}
+
+section.about-us {
+  background-image: url("/assets/backgrounds/about.jpg");
+  background-repeat: no-repeat;
+}
+
+.about-us {
+  padding-top: 8rem;
+  color: white;
+}
+
+.about-us__border {
+  border: 2px solid #AA9B74 !important;
+  margin: 0 auto;
+}
+
+.about-us__heading h6 {
+  padding: 3rem;
+  font-size: 2rem;
+}
+
+.about-us__text p {
+  font-size: 2rem;
+  padding-bottom: 5rem;
+}
 /*# sourceMappingURL=main.css.map */
