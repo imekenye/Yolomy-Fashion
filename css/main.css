@@ -237,7 +237,7 @@ input[type="checkbox"]:not(:checked):focus + label:before {
 }
 
 section.about-us {
-  background-image: url("/assets/backgrounds/about.jpg");
+  background-image: url("../assets/backgrounds/about.jpg");
   background-repeat: no-repeat;
 }
 
